@@ -99,6 +99,29 @@ header p {
 	z-index: 10;
 }
 
+/* Affiliate Disclosures */
+h2 {
+	text-align: center;
+}
+
+.ftc-disclosure {
+	font-size: 0.8rem;
+	color: #64748b;
+	margin-top: 0.25rem;
+	margin-bottom: 1.5rem;
+	font-style: italic;
+	text-align: center;
+}
+
+.amazon-disclosure {
+	font-size: 0.8rem;
+	color: #64748b;
+	margin-top: 2rem;
+	text-align: center;
+	padding: 1rem;
+	border-top: 1px solid #e2e8f0;
+}
+
 .marquee-item img {
 	width: 100%;
 	height: 100%;
