@@ -41,6 +41,19 @@ header p {
 	width: 100%;
 }
 
+/* Category label above each marquee row */
+.row-label {
+	text-align: center;
+	font-size: 1.4rem;
+	letter-spacing: -0.01em;
+	margin-bottom: -0.75rem; /* pull label closer to its own row */
+}
+
+/* Extra breathing room between one row and the next label */
+.row-label:not(:first-child) {
+	margin-top: 1rem;
+}
+
 .marquee-row {
 	display: flex;
 	width: fit-content;
